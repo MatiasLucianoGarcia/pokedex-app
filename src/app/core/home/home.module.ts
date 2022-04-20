@@ -10,6 +10,9 @@ import { PokedexModule } from '../pokedex/pokedex.module';
   imports: [
     CommonModule,
     PokedexModule
+  ],
+  exports:[
+    HomeComponent
   ]
 })
 export class HomeModule { }

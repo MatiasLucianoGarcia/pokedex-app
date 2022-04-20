@@ -1,0 +1,22 @@
+.screen{
+    background-color: #2e2e2e;
+    width: 20em;
+    height: 20em;
+    margin:2em auto;
+    border: 8px solid gray;
+    border-radius: 10px;
+}
+.pokemon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top:3em;
+    &__img{
+        width: 150px;
+    }
+    &__stats{
+        color:white;
+        margin: 0.2em;
+    }
+}

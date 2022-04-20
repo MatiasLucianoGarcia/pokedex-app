@@ -1,0 +1,71 @@
+.pokedex{
+    background-color: #b10000;
+    width: 28em;
+    height: 40em;
+    border: 0.5em solid #353535;
+    border-radius: 5px;
+    padding: 1.5em;
+
+    &__leds{
+        width: 100%;
+        padding: 5px;
+        &__cube{
+            height: 35px;
+            width: 35px;
+            border: 3px solid  rgba(0, 0, 0, 0.493);
+            float: right;
+        }
+        &__led{
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            background-color:#00aaf8;
+            display: inline-block;
+            border:5px solid #9c9c9c;
+            margin-right: 0.8em;
+
+            &--big{
+                height: 50px;
+                width: 50px;
+            }
+            &--green{
+                background-color:#01cd01; 
+            }
+            &--yellow{
+                background-color: #f3e805;
+            }
+        }
+    }
+
+    &__screen{
+        margin: 2em auto;
+    }
+
+    .buttons{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        &__select{
+            width: 30px;
+            height: 10px;
+            background-color: black;
+            border:3px solid rgb(179, 177, 177);
+            border-radius: 30%;
+            margin-right: 20px;
+            margin-top: 2em;
+        }
+        &__grid{
+            width: 15em;
+            align-items: center;
+            justify-content: center;
+            &__btn{
+                width: 3em;
+                height: 3em;
+                background-color: #00aaf8;
+                display: inline-block;
+                margin: 0 1em;
+                
+            }
+        }
+    }
+}
