@@ -1,0 +1,10 @@
+<div class="conteiner">
+  <button class="conteiner__item" (click)="prevPokemonList()"><</button>
+  <ng-container *ngFor="let pokemon of pokemons">
+    <app-slider-card
+      class="conteiner__item"
+      [pokemon]="pokemon"
+    ></app-slider-card>
+  </ng-container>
+  <button class="conteiner__item" (click)="nextPokemonList()">></button>
+</div>

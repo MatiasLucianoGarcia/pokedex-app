@@ -1,0 +1,9 @@
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    &__item{
+        margin:6px;
+    }
+}

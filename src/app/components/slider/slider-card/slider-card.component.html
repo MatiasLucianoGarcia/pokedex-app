@@ -1,0 +1,4 @@
+<div class="card" (click)="sharePokemon()">
+    <img class = "card__img" [src]=pokemon.image alt="" *ngIf="pokemon">
+    <div class="card__loader" *ngIf="!pokemon"></div>
+</div>

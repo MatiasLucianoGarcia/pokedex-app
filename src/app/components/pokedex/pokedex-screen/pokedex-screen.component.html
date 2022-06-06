@@ -1,0 +1,11 @@
+<div class="screen">
+    <div *ngIf="myPokemon.name != ''" class="pokemon">
+        <img class="pokemon__img" [src]=myPokemon.image >
+        <div class="pokemon__stats">
+            <p class="pokemon__stats pokemon__stats--name">NAME : {{myPokemon.name}}</p>
+            <p class="pokemon__stats pokemon__stats--type">TYPES : {{myPokemon.type.name}}</p>
+            <p class="pokemon__stats pokemon__stats--type">HEIGHT : {{myPokemon.height}}</p>
+            <p class="pokemon__stats pokemon__stats--type">WEIGHT : {{myPokemon.weight}}</p>
+        </div>
+    </div>
+</div>

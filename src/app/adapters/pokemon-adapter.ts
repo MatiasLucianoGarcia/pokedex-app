@@ -8,7 +8,6 @@ import { Injectable } from "@angular/core";
 })
 export class PokemonAdapter implements Adapter<Pokemon>{
     adapt(item:any){
-        console.log(item.types);
         return new Pokemon(
             item.name,
             item.sprites.front_default,
@@ -19,3 +18,5 @@ export class PokemonAdapter implements Adapter<Pokemon>{
             []);
     }
 }
+
+
